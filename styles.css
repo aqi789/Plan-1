@@ -22,7 +22,15 @@
     width: 100%;
 }
 
+.price_box {
+    background-color: rgb(139, 158, 198);
+    padding: 5px;
+    margin: 3px;
+}
 
+.free_space {
+    background: #faead7;border: none;
+}
 
 table {
     border-collapse: collapse;
@@ -35,109 +43,155 @@ td {
     border: 1px solid #000;
     background-color: #fff;
 }
-td p{
+
+td p {
     font-size: 8px;
     margin-bottom: 6px;
 }
-td h3{
+
+td h3 {
     margin-top: 6px;
     font-size: 12px;
-} h2{ 
+}
+
+h2 {
     font-size: 14px;
 }
 
-.row1{
-    width: 10% !important; 
-    display: flex; flex-direction: column; justify-content: space-between; align-items: center; margin: 10px;   
-    }
-.row2{
-width: 40% !important;   
-margin-right: 3% !important; 
+.row1 {
+    width: 10% !important;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px;
 }
-.row3{
-width: 50% !important;    
+
+.row2 {
+    width: 40% !important;
+    margin-right: 3% !important;
 }
-.food h1 { 
+
+.row3 {
+    width: 50% !important;
+}
+
+.food h1 {
     text-transform: uppercase;
 }
+
 .food {
     display: flex;
     justify-content: space-evenly;
 }
- 
+
 @media (max-width: 768px) and (min-width: 593px) {
-    td p{
+    td p {
         font-size: 5px !important;
     }
-    td h3{
+
+    td h3 {
         font-size: 8px !important;
     }
-    h2{
+
+    h2 {
         font-size: 8px !important;
-    }td {
+    }
+
+    td {
         padding: 4px !important;
-    }.food h1 { 
+    }
+
+    .food h1 {
         font-size: 14px !important;
-    }.food {
+    }
+
+    .food {
         height: 20vh !important;
     }
 }
 
 @media (max-width: 593px) and (min-width: 468px) {
-    td p{
+    td p {
         font-size: 4px !important;
     }
-    td h3{
+
+    td h3 {
         font-size: 6px !important;
     }
-    h2{
+
+    h2 {
         font-size: 6px !important;
-    }td {
+    }
+
+    td {
         padding: 3px !important;
-    }.food h1 { 
+    }
+
+    .food h1 {
         font-size: 12px !important;
-    }.food {
+    }
+
+    .food {
         height: 15vh !important;
     }
 }
+
 @media (max-width: 468px) and (min-width: 383px) {
-    td p{
+    td p {
         font-size: 3px !important;
     }
-    td h3{
+
+    td h3 {
         font-size: 4px !important;
     }
-    h2{
+
+    h2 {
         font-size: 4px !important;
-    }td {
+    }
+
+    td {
         padding: 2px !important;
-    }.food h1 { 
+    }
+
+    .food h1 {
         font-size: 10px !important;
     }
 }
 
 @media (max-width: 383px) {
-    td p{
+    td p {
         font-size: 2px !important;
     }
-    td h3{
+
+    td h3 {
         font-size: 3px !important;
     }
-    h2{
+
+    h2 {
         font-size: 3px !important;
-    }td {
+    }
+
+    td {
         padding: 1px !important;
-    }.food h1 { 
+    }
+
+    .food h1 {
         font-size: 8px !important;
-    }.food {
+    }
+
+    .food {
         height: 10vh !important;
     }
 }
+
 td .container {
     display: flex;
     justify-content: space-between;
-    width: 200px; /* Adjust as needed */
+    width: 200px;
+    /* Adjust as needed */
 }
+
 .prayer_room h2 {
     display: flex;
     justify-content: center;
@@ -146,12 +200,15 @@ td .container {
     height: 100%;
     background-color: rgb(52, 52, 52);
     color: #fff;
-    margin: 0; /* Remove default margins */ 
+    margin: 0;
+    /* Remove default margins */
 }
+
 .prayer_room {
     background: #faead7;
     border: none;
-    padding: 0; /* Remove padding from the table cell */
+    padding: 0;
+    /* Remove padding from the table cell */
 }
 
 .vip_lounge h2 {
@@ -162,28 +219,36 @@ td .container {
     height: 100%;
     background-color: rgb(123, 86, 86);
     color: #fff;
-    margin: 0; /* Remove default margins */ 
+    margin: 0;
+    /* Remove default margins */
 }
+
 .vip_lounge {
     background: #faead7;
     border: none;
-    padding: 0; /* Remove padding from the table cell */
+    padding: 0;
+    /* Remove padding from the table cell */
 }
+
 .exit_hall h2 {
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
     height: 100%;
-    background-color:#ff0000;
+    background-color: #ff0000;
     color: #fff;
-    margin: 0; /* Remove default margins */
-    padding: 10px; /* Add some padding if needed */
+    margin: 0;
+    /* Remove default margins */
+    padding: 10px;
+    /* Add some padding if needed */
 }
+
 .exit_hall {
     background: #faead7;
     border: none;
-    padding: 0; /* Remove padding from the table cell */
+    padding: 0;
+    /* Remove padding from the table cell */
 }
 
 td[rowspan="2"] {
@@ -388,4 +453,3 @@ h5 {
     height: 80px;
     margin: 0 0 0 560px !important;
 }
- 
